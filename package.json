@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/checkstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Check digests and stack fingerprints for local integrity checks.",
+  "bin": {
+    "checkstack": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/checkstack.git"
+  },
+  "homepage": "https://theworker02.github.io/checkstack/",
+  "keywords": [
+    "check",
+    "stack",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
